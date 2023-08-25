@@ -9,7 +9,7 @@ metadata:
 rules:
 - apiGroups: [""]
   resources:
-    - serviceaccount/token
+    - serviceaccounts/token
   verbs:
     - get
     - list
@@ -30,7 +30,7 @@ metadata:
 rules:
 - apiGroups: [""]
   resources:
-    - servicemonitors
+    - serviceaccounts/token
   verbs:
     - get
     - list
